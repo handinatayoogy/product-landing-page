@@ -1,0 +1,40 @@
+* {
+  color: rgb(6, 46, 21);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-text {
+  margin-top: 80px;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #a3a3a3;
+  padding: 10px;
+}
+
+.icon-feature {
+  font-size: 50px;
+  color: #ef6d6d;
+}
+
+#about {
+  background-color: #ef6d6d;
+  margin-top: 30px;
+}
+
+@media (max-width: 767.98px) {
+  .about-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
